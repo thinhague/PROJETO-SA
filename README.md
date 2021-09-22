@@ -44,7 +44,7 @@ Site hospedado: https://paper-rock-scissors2.vercel.app/
 
 ## 🌐 Frontend
 <h1 align="center">
-    <img  src="https://files.fm/u/phzfvgead#/view/42dgt5scr" />
+    <img  src="https://media.giphy.com/media/4E6Bml9ALTNcnTmGBT/giphy.gif?cid=790b7611a67f64bf56335f694c135f7fdd988d90a386005e&rid=giphy.gif&ct=g" />
 </h1>
 
 ## 📱 Mobile(Responsividade)
