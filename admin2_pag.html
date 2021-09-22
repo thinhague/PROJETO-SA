@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/logo pequeninha 2.0.png">
+    <title>Editar Produtos - Área do admin</title>
+    <link rel="stylesheet" href="./css/gerais.css">
+    <link rel="stylesheet" href="./bootstrap-5.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/navBars.css">
+    <link rel="stylesheet" href="./css/admin2_pag.css">
+
+</head>
+
+<body>
+
+    <div class="container-main vigaRegular">
+
+        <div class="container-l">
+
+            <div class="logo">
+
+                <img onclick="javascript:window.location.href='index.html';" src="./img//logo pequeninha 2.0.png">
+                <label for="">Bem vindo, Admin!</label>
+
+            </div>
+
+            <div class="adicionar-produtos">
+
+                <a class="adicionar" href="admin_pag.html">Adicionar produtos</a>
+
+            </div>
+
+            <div class="editar-produtos">
+
+                <a class="editar active" href="admin2_pag.html">Editar produtos</a>
+
+            </div>
+
+            <div class="remover-produtos">
+
+                <a class="remover" href="admin3_pag.html">Remover produtos</a>
+
+            </div>
+
+            <div class="gerenciar-contas">
+
+                <a class="gerenciar" href="admin4_pag.html">Gerenciar contas</a>
+
+            </div>
+
+        </div>
+
+        <div class="container-right">
+
+            <div class="container-topper">
+
+                <label>Editar produtos</label>
+
+            </div>
+
+            <div class="container-midson">
+
+                <div class="midson-l">
+                    <div class="localizar-itens">
+                        <div class="localizar-produto">
+
+                            <label>Localize o produto</label>
+
+                        </div>
+
+                        <div class="localizar-input">
+                            <div class="input-btn">
+                                <input type="text" placeholder="Pesquise o produto pelo nome ou código">
+                                <button onclick="localizarProdutos()" type="submit"><img src="./img/search.png"  alt="Search" /></button>
+
+                            </div>
+                           
+                                <li></li>
+                         
+                          
+
+                        </div>
+                    </div>
+                    <div class="mid-left-input">
+                        <div class="mid-l-inputs">
+                            <label>Nome</label>
+                            <input type="text" readonly placeholder="Confirme o produto desejado">
+                        </div>
+
+                        <div class="mid-l-inputs">
+                            <label for="">Código</label>
+                            <input type="text" readonly placeholder="Confirme o código do produto">
+
+                        </div>
+
+                        <div class="mid-l-inputs">
+                            <label for="">Preço</label>
+                            <input type="number" readonly placeholder="Confime o preço do produto">
+
+                        </div>
+
+                        <div class="mid-l-inputs">
+                            <label for="">Descrição do produto</label>
+                            <textarea name="" id="" cols="5" readonly></textarea>
+
+                        </div>
+                    </div>
+                    <div class="mid-left-bot">
+                        <div class="imagem-produto">
+
+                            <label>Imagem</label>
+
+                        </div>
+
+                        <div class="img-produto">
+
+                            <img src="" alt="">
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="midson-r">
+                    <div class="editar-produto">
+
+                        <label>Edite o produto</label>
+
+                    </div>
+                    <div class="mid-right-input">
+                        <div class="mid-r-inputs">
+                            <label>Nome</label>
+                            <input type="text" placeholder="Edite o produto desejado">
+                            <li></li>
+                        </div>
+
+                        <div class="mid-r-inputs">
+                            <label for="">Código</label>
+                            <input type="text" placeholder="Edite o código do produto">
+                            <li></li>
+                        </div>
+
+                        <div class="mid-r-inputs">
+                            <label for="">Preço</label>
+                            <input type="number" placeholder="Edite o preço do produto">
+                            <li></li>
+                        </div>
+
+                        <div class="mid-r-inputs">
+                            <label for="">Descrição do produto</label>
+                            <textarea name="" id="" cols="5"></textarea>
+
+                        </div>
+                    </div>
+                    <div class="mid-file">
+
+                        <label>Selecione uma imagem</label>
+                        <input type="file" id="foto">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="container-bottomson">
+
+
+                <button onclick="editarProdutos()">Editar produto</button>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- <footer></footer> -->
+    <script src="./js/sweetalert2.js"></script>
+    <script src="./js/admin/admin2.js"></script>
+    <script src="./bootstrap-5.0.2/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
