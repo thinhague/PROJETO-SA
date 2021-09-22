@@ -39,8 +39,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 O PROJETO-SA foi o projeto do primeiro semestre do curso Técnico em Desenvolvimento de Sistemas, onde o desafio era desenvolver
-um e-commerce, para Desktop e para Mobile, utilizando o armazenamento Web localStorage. O projeto foi desenvolvido por uma equipe
-de 5 integrantes da turma. 
+um e-commerce, para Desktop e para Mobile, utilizando o armazenamento Web localStorage. O projeto foi desenvolvido por 
+uma equipe de 5 integrantes da turma. 
 
 
 Site hospedado: https://paper-rock-scissors2.vercel.app/
