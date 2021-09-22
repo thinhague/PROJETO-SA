@@ -1,0 +1,134 @@
+/* configuração das navbars */
+
+.pp {
+    align-items: center;
+}
+
+/*navbar ciano*/
+
+.nav-cian {
+    background-color: #183442;
+    height: 125px;
+    align-items: center;
+}
+
+.color {
+    color: #183442c4;
+}
+
+.marca {
+    display: flex;
+    font-size: 65px;
+    align-items: center;
+    height: 110px;
+}
+
+.btn-log {
+    background-color: #183442;
+    border: #183442;
+    font-size: 25px;
+}
+
+/* logo */
+
+.rapo-div{
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    width:100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    top: 2vw;
+}
+.raposinha {
+    z-index: 10;
+    margin-top: 25px;
+}
+.container-fluid{
+    z-index: 3;
+}
+.cont-nav{
+    z-index: 5;
+}
+
+
+/*navbar laranja*/
+
+.navbar-collapse {
+    height: 30px;
+}
+
+.espaçamento-nav {
+    margin-left: 8px;
+}
+
+.navnavpapi {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+#perfilRespon{
+    display: none;
+}
+
+.bi-cart3{
+    margin-bottom: 0.3vw;
+}
+
+
+@media screen and (max-width:992px) {
+    .espaçamento-nav {
+        margin-left: 0;
+    }
+    .navnavpapi {
+        height: 100%;
+    }
+    .navbar-collapse {
+        height: auto!important;
+    }
+}
+@media screen and (max-width:600px) {
+    
+    header .container-fluid {
+        justify-content: center!important;
+        flex-direction: column!important;
+    }
+    .marca {
+        font-size: 20vw;
+        position: absolute;
+        right: 0;
+    }
+    .raposinha{
+        position: absolute;
+        left: 5vw;
+        top: -4vw;
+        width: 68px;
+        height: 92px;
+    }
+    .div_login{
+        display: none;
+    }
+    .btn-log{
+        font-size: 20px;
+    }
+    #perfilRespon{
+        display: flex;
+    }
+    #perfilRespon button{
+        
+        background-color: #E2781C;
+    }
+   
+}
+
+
+@media screen and (max-width:240px) {
+    .navbar-brand {
+        font-size: 8vw;
+    }
+    .marca {
+        font-size: 18vw;
+    }
+}

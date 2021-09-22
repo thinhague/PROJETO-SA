@@ -1,0 +1,316 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #6B8D8D;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.imgs-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    padding: 16px;
+    background-color: #E2781C
+}
+
+footer #senai {
+    height: 15px;
+    width: 97px;
+    margin-right: 5%;
+}
+
+footer #avanti {
+    height: 14px;
+    width: 75px;
+    margin-left: 5%;
+}
+
+#senai, #avanti {
+    cursor: pointer;
+}
+
+.iconeAdmin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconeAdmin i {
+    color: white;
+}
+
+.redesSociais i {
+    color: white;
+}
+
+.conteudo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.navnavpapi {
+    height: auto!important;
+}
+
+.container-principal {
+    display: flex;
+    height: 90vh;
+    width: 90%;
+    margin: 20px;
+}
+
+.container-l {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255, 0.6);
+    border-radius: 10px;
+   
+}
+
+.container-l .top {
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 8px;
+    border: solid 2px #333;
+}
+
+.container-l .top img {
+    width: 60%;
+    height: 80%;
+}
+
+.container-l .bot {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-l .bot .bot-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 80%;
+    margin: 3%;
+    border: solid 2px #333;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container-l .bot .bot-container img {
+    width: 70%;
+    
+}
+
+.container-r {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container-rr {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255, 0.6);
+    border-radius: 10px;
+}
+
+.container-rr .top-r {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-rr .top-r label {
+    color: black;
+    font-size: 29px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container-rr .mid-r {
+    height: 60%;
+    height: 60%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.container-rr .mid-r .preco {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.preco strong {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.descricao label {
+    text-align: justify;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.descricao-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+
+.descricao-bot {
+    display: flex;
+    height: 80%;
+}
+
+.mid-r .label-strong {
+    font-size: 3vh;
+}
+
+.container-rr .mid-r .descricao {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.descricao h3 {
+    text-align: center;
+}
+
+.container-rr .bot-r {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bot-r button {
+    border-radius: 12px;
+    width: 70%;
+    height: 5vh;
+    border: solid 2px #E2781C;
+    background-color: #E2781C;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+
+@media screen and (max-width:1190px) {
+    .descricao label {
+        font-size: 1.4vw;
+    }
+    .descricao h3 {
+        font-size: 2.3vw;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .container-principal {
+        height: 100%;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .container-l {
+        width: 100%;
+        height: 80vh;
+    }
+    .container-l .top {
+        margin-top: 1.3%;
+    }
+    .container-r {
+        width: 100%;
+        height: 70vh;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .descricao label {
+        font-size: 2vw;
+    }
+    .descricao h3 {
+        font-size: 3.2vw;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .container-principal {
+        margin: 0;
+        width: 95%;
+    }
+    .container-l {
+        height: 60vh;
+        margin-top: 20px;
+    }
+    .container-r {
+        height: 90vh;
+    }
+    .container-rr {
+        width: 100%;
+    }
+    .descricao label {
+        font-size: 3.5vw;
+    }
+    .descricao h3 {
+        font-size: 6vw;
+    }
+}
+
+@media screen and (max-width:415px) {
+    .descricao label {
+        font-size: 4vw;
+    }
+
+    .container-l .top img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container-l .bot .bot-container img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:280px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .iconeAdmin {
+        margin-bottom: 5px;
+    }
+    footer .imgs-footer {
+        margin-bottom: 5px;
+    }
+}
