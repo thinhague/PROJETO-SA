@@ -43,7 +43,6 @@ um e-commerce, para Desktop e para Mobile, utilizando o armazenamento Web localS
 uma equipe de 5 integrantes da turma. 
 
 
-Site hospedado: https://paper-rock-scissors2.vercel.app/
 
 ## 🌐 Frontend
 <h1 align="center">
