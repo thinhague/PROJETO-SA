@@ -44,7 +44,7 @@ Site hospedado: https://paper-rock-scissors2.vercel.app/
 
 ## 🌐 Frontend
 <h1 align="center">
-    <img  src="https://github.com/GabrielBarcelos1/paper-rock-scissors/blob/main/gifdesktop.gif" />
+    <img  src="./img/videoReadme" />
 </h1>
 
 ## 📱 Mobile(Responsividade)
