@@ -49,7 +49,8 @@ Site hospedado: https://paper-rock-scissors2.vercel.app/
 
 ## 📱 Mobile(Responsividade)
 <h1 align="center">
-    <img  src="https://github.com/GabrielBarcelos1/paper-rock-scissors/blob/main/gifmobile.gif" />
+    <img  src="https://media.giphy.com/media/taorFvXxyYVEAZlmH8/giphy.gif?cid=790b761198ac92435acc843e69026b4ddf3758f2d7232f25&rid=giphy.gif&ct=g" />
+    <img  src="https://media.giphy.com/media/lhZl92SXid1xcIMMhC/giphy.gif?cid=790b76111b10a94eebdd9c1c679543c4e74c4f4b94575177&rid=giphy.gif&ct=g" />
 </h1>
 
     

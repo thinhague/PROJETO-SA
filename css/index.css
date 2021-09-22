@@ -213,6 +213,11 @@ footer #avanti {
 @media screen and (max-width:600px) {
     .carousel-inner {
         width: 100%!important;
+        height: 45vw!important;
+    }
+    .carousel-inner img {
+        width: 100%!important;
+        height: 45vw!important;
     }
     .banner {
         height: 150px;
@@ -233,11 +238,6 @@ footer #avanti {
     }
 }
 
-@media screen and (max-width:1024px) {
-    .carousel-item img {
-        height: 100%!important;
-    }
-}
 
 @media screen and (max-width:280px) {
     footer {
