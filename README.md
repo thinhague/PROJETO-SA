@@ -31,14 +31,16 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [React.js]()
-- [ContextApi]()
-- [React-router-dom]()
-- [react-Icons]()
+- [JavaScript]()
+- [HTML 5]()
+- [Bootstrap]()
+- [SweetAlert 2]()
 - [Css3]()
 
 ## 💻 Projeto
-O projeto Paper,rock and scissors foi desenvolvido para praticar conceitos de ReactJs, dentre esses conceitos estão, hooks, troca de informações entre páginas usando contextApi, componentização,responsividade e rotas com react-router-dom. essa aplicação foi feita a partir de uma ideia do site https://www.frontendmentor.io sendo no nível avançado, é uma aplicação muito intuitiva que relembra a nossa infância com o famoso Pedra papel e tesoura.
+O PROJETO-SA foi o projeto do primeiro semestre do curso Técnico em Desenvolvimento de Sistemas, onde o desafio era desenvolver
+um e-commerce, usando o armazenamento da Web localStorage, entre outras ferramentas. O projeto foi desenvolvido por uma equipe
+de 5 integrantes, da turma.
 
 Site hospedado: https://paper-rock-scissors2.vercel.app/
 
@@ -58,8 +60,8 @@ Site hospedado: https://paper-rock-scissors2.vercel.app/
 
 #### Clonando o projeto
 ```sh
-git clone https://github.com/GabrielBarcelos1/paper-rock-scissors
-cd paper-rock-scissors
+git clone https://github.com/thinhague/PROJETO-SA.git
+cd PROJETO-SA
 Depois disso é so mecher no projeto.
 ```
 
