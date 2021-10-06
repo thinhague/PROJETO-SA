@@ -1,21 +1,5 @@
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/GabrielBarcelos1/paper-rock-scissors">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/GabrielBarcelos1/paper-rock-scissors">
-  
-  <a href="https://github.com/GabrielBarcelos1/paper-rock-scissors/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/GabrielBarcelos1/paper-rock-scissors">
-  </a>
-
-  <a href="https://github.com/GabrielBarcelos1/paper-rock-scissors/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/GabrielBarcelos1/paper-rock-scissors">
-  </a>
-
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-</p>
-
-<p align="center">
   <a href="#-tecnologias">🚀 Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">💻 Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-frontend">🌐 Frontend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
