@@ -46,7 +46,7 @@ uma equipe de 5 integrantes da turma.
 ```sh
 git clone https://github.com/thinhague/PROJETO-SA.git
 cd PROJETO-SA
-Depois disso é so mecher no projeto.
+Depois disso é so mexer no projeto.
 ```
 
 
